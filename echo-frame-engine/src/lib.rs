@@ -1,2 +1,2 @@
 pub mod adapters;
-mod core;
+pub mod core;
