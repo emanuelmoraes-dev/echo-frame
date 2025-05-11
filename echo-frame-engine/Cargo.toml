@@ -1,0 +1,15 @@
+[package]
+name = "echo-frame-engine"
+version = "0.0.1"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = {version = "0.2", optional = true}
+
+[features]
+default = []
+all = ["wasm"]
+wasm = ["wasm-bindgen"]
