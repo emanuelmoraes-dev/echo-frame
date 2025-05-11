@@ -1,0 +1,7 @@
+{
+    "name": "echo-frame-games",
+    "workspaces": ["games/space-generations"],
+    "scripts": {
+        "sg": "npm -w games/space-generations"
+    }
+}
