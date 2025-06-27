@@ -1,0 +1,11 @@
+{
+    "type": "Actor",
+    "id": "ship-hardpoint-weapon-beam-laser-1a",
+    "description": "Beam laser weapon mounted on the spaceship. Size 1, type A.",
+    "tags": ["ship-weapon", "size-1", "type-a", "beam-laser"],
+    "initialState": {
+        "damage": 10,
+        "range": 500,
+        "fireRate": 1.0
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "Actor",
+    "id": "player",
+    "description": "The player character in the game, controlling the spaceship.",
+    "initialState": {
+        "health": 100,
+        "credits": 1000
+    },
+    "actors": {
+        "ship": "ship-instance-sidewinder"
+    }
+}

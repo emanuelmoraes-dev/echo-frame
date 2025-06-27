@@ -1,0 +1,17 @@
+{
+    "type": "Actor",
+    "id": "ship-hardpoint-1",
+    "description": "Hardpoint size 1 on the spaceship, capable of mounting various weapons.",
+    "actors": {
+        "weapon": {
+            "allTags": ["ship-weapon", "size-1"]
+        }
+    },
+    "events": {
+        "setWeapon": {
+            "$setActor": {
+                "weapon": "$payload"
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "type": "Actor",
+    "id": "$entrypoint",
+    "description": "This is the entry point for the Space Highway game events.",
+    "actors": ["player"]
+}

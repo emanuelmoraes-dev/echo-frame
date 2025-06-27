@@ -1,0 +1,17 @@
+{
+    "type": "Actor",
+    "id": "ship-instance-sidewinder",
+    "description": "Sidewinder-class spaceship.",
+    "initialState": {
+        "health": 100
+    },
+    "actors": {
+        "hardpoint-1": {
+            "id": "ship-hardpoint-1",
+            "call": {
+                "name": "setWeapon",
+                "payload": "ship-hardpoint-weapon-beam-laser-1a"
+            }
+        }
+    }
+}
