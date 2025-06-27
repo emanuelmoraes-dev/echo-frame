@@ -1,6 +1,6 @@
 # echo-frame-engine
 
-**Echo Frame** is a modular text based engine for actor and event-based games and simulations, focused on being lightweight, extensible, and easy to integrate with different platforms such as WebAssembly (WASM) and pure Rust applications.
+**Echo Frame** is a modular text based engine for actor and event-based games and simulations, focused on being lightweight, extensible, and easy to integrate with different platforms such as WebAssembly (WASM) and pure Rust applications and C FFI.
 
 ## build
 
